@@ -5,7 +5,7 @@
 }
 .logo-t {
     text-transform: uppercase;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: fantasy;
     color: #c99383;
     font-size: 5vw;
 }
@@ -16,10 +16,33 @@
     font-size: 9vw;
     top: 37vh;
     font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-transform: uppercase;
     font-style: italic;
     width: 89vw;
     transform: translateX(-107%);
+    padding: 10px;
+    background-color: #2b2e4a;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    cursor: pointer;
+    transition: left 0.5s ease-in-out;
+}
+
+#leftButton2 {
+    position: absolute;
+    right: -174%;
+    font-size: 9vw;
+    top: 51vh;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-style: italic;
+    width: 89vw;
+    transform: translateX(118%);
     padding: 10px;
     background-color: #2b2e4a;
     color: white;
