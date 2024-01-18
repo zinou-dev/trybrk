@@ -20,9 +20,12 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-          var leftButton = document.getElementById("leftButton");
-          leftButton.style.left = "100%";
-        });
+    var leftButton = document.getElementById("leftButton");
+    
+    setTimeout(function() {
+      leftButton.style.left = "100%";
+    }, 400); // تأخير لمدة 0.4 ثانية (400 مللي ثانية)
+  });
     </script>
 </body>
 </html>
