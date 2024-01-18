@@ -17,7 +17,7 @@
     </header>
     <section>
         <button id="leftButton" onclick="alert('Left button clicked!')" style="left: 11%;"><i class="fa fa-instagram" style="font-size: 11vw;color:white;position: relative;right: 16vw;"></i><span class="insta">instagram</span></button>    </section>
-
+        <button id="leftButton2" onclick="alert('Left button clicked!')" style="left: 11%;"><i class="fa fa-facebook" style="font-size: 11vw;color:white;position: relative;right: 17vw; top:5px;"></i><span class="insta">facebook</span></button>
     <!--<script>
         document.addEventListener("DOMContentLoaded", function() {
           var leftButton = document.getElementById("leftButton");
@@ -30,6 +30,14 @@
     
     setTimeout(function() {
       leftButton.style.left = "100%";
+    }, 400); // تأخير لمدة ثانية (1000 مللي ثانية)
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var rightButton = document.getElementById("leftButton2");
+    
+    setTimeout(function() {
+      rightButton.style.left = "-100%";
     }, 400); // تأخير لمدة ثانية (1000 مللي ثانية)
   });
     </script>
