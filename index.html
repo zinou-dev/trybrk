@@ -18,13 +18,19 @@
     <section>
         <button id="leftButton" onclick="alert('Left button clicked!')" style="left: 11%;"><i class="fa fa-instagram" style="font-size: 11vw;color:white;position: relative;right: 16vw;"></i><span class="insta">instagram</span></button>    </section>
 
+    <!--<script>
+        document.addEventListener("DOMContentLoaded", function() {
+          var leftButton = document.getElementById("leftButton");
+          leftButton.style.left = "100%";
+        });
+    </script>-->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
     var leftButton = document.getElementById("leftButton");
     
     setTimeout(function() {
       leftButton.style.left = "100%";
-    }, 400); // تأخير لمدة 0.4 ثانية (400 مللي ثانية)
+    }, 400); // تأخير لمدة ثانية (1000 مللي ثانية)
   });
     </script>
 </body>
