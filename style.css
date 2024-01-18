@@ -6,8 +6,6 @@
 .logo-t {
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     color: #c99383;
     font-size: 5vw;
 }
@@ -18,8 +16,6 @@
     font-size: 9vw;
     top: 37vh;
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     text-transform: uppercase;
     font-style: italic;
     width: 89vw;
